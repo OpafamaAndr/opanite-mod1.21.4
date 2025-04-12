@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "opanite_ingot",
+  "ingredient": [
+    "opanitemod:raw_opanite_ore"
+  ],
+  "result": {
+    "id": "opanitemod:opanite_ingot"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "opanitemod:item/raw_opanite_ore"
+  }
+}

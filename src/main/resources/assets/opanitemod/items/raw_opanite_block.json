@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "opanitemod:block/opanite_ore"
+    "model": "opanitemod:block/raw_opanite_block"
   }
 }

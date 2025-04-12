@@ -1,7 +1,13 @@
 {
-  "item.opanitemod.opanite_ore": "Opanite Ore",
+  "item.opanitemod.raw_opanite_ore": "Raw Opanite Ore",
   "item.opanitemod.opanite_ingot": "Opanite Ingot",
 
-  "block.opanitemod.opanite_block": "Block of Opanite"
+  "block.opanitemod.opanite_block": "Block of Opanite",
+  "block.opanitemod.raw_opanite_block": "Block of Raw Opanite",
+  "block.opanitemod.opanite_ore": "Opanite Ore",
+  "block.opanitemod.opanite_deepslate_ore": "Opanite Deepslate Ore",
+
+  "itemgroup.opanitemod.opanite_items": "Opanite Items",
+  "itemgroup.opanitemod.opanite_blocks": "Opanite Blocks"
 
 }

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "opanitemod:opanite_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "opanitemod:opanite_ingot"
+  }
+}

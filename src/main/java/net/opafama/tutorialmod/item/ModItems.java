@@ -11,8 +11,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item OPANITE_ORE=registerItem("opanite_ore",
-            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(OpaniteMod.MOD_ID,"opanite_ore")))));
+    public static final Item RAW_OPANITE_ORE=registerItem("raw_opanite_ore",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(OpaniteMod.MOD_ID,"raw_opanite_ore")))));
 
     public static final Item OPANITE_INGOT=registerItem("opanite_ingot",
             new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(OpaniteMod.MOD_ID,"opanite_ingot")))));
@@ -25,7 +25,7 @@ public class ModItems {
        OpaniteMod.LOGGER.info("Registering Mod Items for " + OpaniteMod.MOD_ID);
 
        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-           fabricItemGroupEntries.add(OPANITE_ORE);
+           fabricItemGroupEntries.add(RAW_OPANITE_ORE);
        });
        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
            fabricItemGroupEntries.add(OPANITE_INGOT);
