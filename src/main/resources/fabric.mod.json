@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "opanitemod",
+	"version": "${version}",
+	"name": "Opanite Mod",
+	"description": "Hopefully I will be adding Opanite to minecraft!",
+	"authors": [
+		"Opafama Andr"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/opanite-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.opafama.tutorialmod.OpaniteMod"
+		],
+		"cliet": [
+			"net.opafama.tutorialmod.OpaniteModClient"
+		],
+		"fabric-datagen": [
+			"net.opafama.tutorialmod.OpaniteModDataGenerator"
+		]
+	},
+	"mixins": [
+		"opanite-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
